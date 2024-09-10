@@ -10,7 +10,16 @@
 </head>
 
 <body>
-
+    <main class="container">
+        <form>
+            <label for="pokeitem-code">Item Name or Code:</label>
+            <input type="text" class="form-control" name="pokeitem-code" id="pokeitem-code">
+            <button type="button" id="fetchitem-button">Get Item</button>
+        </form>
+        <h5 id="item-name"></h5>
+    <ul id="item-list">
+    </ul>
+    </main>
 
     <script src="poke-item.js"></script>
     <script src="script.js"></script>
